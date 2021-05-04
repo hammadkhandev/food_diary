@@ -9,12 +9,12 @@ class DialBox extends StatefulWidget {
 
 class _DialBoxState extends State<DialBox> {
   List<String> imagesPath = [
-    'assets/images/check-book.png',
+    'assets/images/check-list.png',
     'assets/images/checklist.png',
     'assets/images/moving delivery.png',
     'assets/images/cooking (1).png',
     'assets/images/microwave.png',
-    'assets/images/serve.png',
+    'assets/images/hot-dish.png',
     //'assets/images/hot-food.png',
   ];
 

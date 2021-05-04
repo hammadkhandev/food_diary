@@ -21,10 +21,8 @@ class _HomeConState extends State<HomeCon> {
         fit: StackFit.loose,
         children: [
           BackAppBar(),
-          Align(
-            alignment: Alignment(0.8,-0.65),
-            child: Image.asset("assets/images/food-hygiene-rating.png",height: 100,width: 150,),
-          ),
+          Align(alignment: Alignment(0.8,-0.65),
+            child: Image.asset("assets/images/food-hygiene-rating.png",height: 100,width: 150,),),
           Align(
             alignment: Alignment(0,3.5),
               child: DialBox()),
